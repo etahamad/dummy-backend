@@ -3,7 +3,7 @@ from flask import Flask
 
 app = Flask(__name__)
 
-version = "v2"
+version = "v1"
 
 @app.route("/status")
 def status():
